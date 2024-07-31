@@ -9,7 +9,7 @@
     "test": "ng test",
     "del:docs": "del docs",
     "copy:dist": "copyfiles dist/mapas-app/* docs/ -f",
-    "build:github": "npm run del:docs && npm run build && npm run copy:dist"
+    "build:netlify": "npm run del:docs && npm run build && npm run copy:dist"
   },
   "private": true,
   "dependencies": {

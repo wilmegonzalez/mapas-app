@@ -28,8 +28,6 @@ export class MiniMapComponent implements AfterViewInit{
     new Marker()
     .setLngLat(this.lngLat)
     .addTo(map)
-    
-    console.log(this.lngLat)
 
   }
 

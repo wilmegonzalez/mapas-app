@@ -3,6 +3,7 @@ import {Map} from 'mapbox-gl';
 
 
 
+
 @Component({
   selector: 'fullscreen-page',
   templateUrl: './full-screen-page.component.html',
@@ -10,6 +11,7 @@ import {Map} from 'mapbox-gl';
 })
 export class FullScreenPageComponent implements AfterViewInit{
 
+  
   @ViewChild('map') public mapaFullScreen?: ElementRef;
 
   ngAfterViewInit(): void {
